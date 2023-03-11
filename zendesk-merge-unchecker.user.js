@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Zendesk Merge Unchecker
 // @namespace    http://tampermonkey.net/
-// @version      0.9
+// @version      1.0
 // @description  Unchecks the "Requester can see this comment" boxes upon ticket merge
 // @author       Senff
 // @updateURL    https://github.com/senff/zendesk-merge-unchecker/raw/master/zendesk-merge-unchecker.user.js
