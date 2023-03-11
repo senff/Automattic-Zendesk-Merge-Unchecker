@@ -4,8 +4,8 @@
 // @version      0.9
 // @description  Unchecks the "Requester can see this comment" boxes upon ticket merge
 // @author       Senff
-// @updateURL    https://github.com/senff/Zendesk-merge-unchecker/raw/master/Zendesk-merge-unchecker.user.js
-// @match        https://woothemes.zendesk.com/agent/*
+// @updateURL    https://github.com/senff/zendesk-merge-unchecker/raw/master/zendesk-merge-unchecker.user.js
+// @match        https://*.zendesk.com/agent/*
 // @grant        none
 // ==/UserScript==
 
@@ -26,5 +26,3 @@ $("body").on('click','#merge_form input.buttonsubmit, #suggestion_columns a', fu
         }
     }, 1000);
 });
-
-// This script was made for the sole purpose of getting a hug from eD.
