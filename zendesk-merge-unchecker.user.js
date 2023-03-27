@@ -4,12 +4,11 @@
 // @version      1.0
 // @description  Unchecks the "Requester can see this comment" boxes upon ticket merge
 // @author       Senff
-// @updateURL    https://github.com/senff/zendesk-merge-unchecker/raw/master/zendesk-merge-unchecker.user.js
+// @downloadURL  https://github.com/Automattic/support-helper-tools/raw/main/zendesk-enhancements/zendesk-merge-unchecker/zendesk-merge-unchecker.user.js
+// @updateURL    https://github.com/Automattic/support-helper-tools/raw/main/zendesk-enhancements/zendesk-merge-unchecker/zendesk-merge-unchecker.user.js
 // @match        https://*.zendesk.com/agent/*
 // @grant        none
 // ==/UserScript==
-
-var $ = window.jQuery;
 
 // Trigger loop to check for the checkboxes
 $("body").on('click','#merge_form input.buttonsubmit, #suggestion_columns a', function () {
